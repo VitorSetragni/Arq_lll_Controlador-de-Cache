@@ -154,9 +154,9 @@ module main_memory #(
 
         block_index = get_block_index(addr); 
 
-        word_index = addr[3:2]; // Escolhe qual palavra dentro do bloco sera lida
+        word_index = addr[3:2]; 
 
-        data = memory[block_index][word_index * DATA_WIDTH +: DATA_WIDTH]; /
+        data = memory[block_index][word_index * DATA_WIDTH +: DATA_WIDTH]; 
     endtask
 
 endmodule
