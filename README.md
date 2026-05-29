@@ -64,7 +64,6 @@ rtl/           # Núcleo da cache (livro §5.12)
 hardware/      # Wrapper + memória principal
 tb/            # Testbenches
 build/         # Artefatos de simulação (gerado)
-TESTES/        # Testes adicionais do trabalho (a expandir)
 ```
 
 ## Integração CPU ↔ cache ↔ memória
